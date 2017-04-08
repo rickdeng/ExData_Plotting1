@@ -1,4 +1,4 @@
-## plot2.R
+## plot3.R
 ## 8 April 2017
 ## This script is for constructing plot3.png
 
