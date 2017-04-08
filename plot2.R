@@ -8,7 +8,7 @@ downloadedFile <- paste(getwd(), "hpc_data.zip", sep = "/")
 download.file(dataUrl, downloadedFile)
 unzip(downloadedFile)
 
-## 2 - load required library
+## 2 - load required library - use sqldf to select specific rows before read data into R
 if(!require("sqldf")) {
   install.packages("sqldf")
 }
